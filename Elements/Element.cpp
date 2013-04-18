@@ -63,7 +63,7 @@
         console.gotoXY(0, 11);
     }
 
-    // definition of static attribute
+    // Define the static class property here.
     char Element::nextIdentifier = 'A';
 
     int Element::getX(void)
@@ -91,14 +91,15 @@
         return this->speed;
     }
 
-    // We must make sure the X and Y co-ordinates are within the boundaries
-    // of our board, because otherwise the program JUST SUDDENLY STOPS WITHOUT
-    // ERRORS AND IT TAKES HALF AN HOUR FOR YOU TO EVEN FIGURE OUT WHAT THE
-    // HELL IS GOING ON.
-    // We have already determined that the size of the board is 10x10,
-    // because those are the values set in the Element constructor, so I'm
-    // hard-coding it in as dirty as that feels. Basically, plus 10 in case
-    // it's gone below 0, and then modulususususus it in case it went above 10.
+    /* We must make sure the X and Y co-ordinates are within the boundaries
+     * of our board, because otherwise the program JUST SUDDENLY STOPS WITHOUT
+     * ERRORS AND IT TAKES HALF AN HOUR FOR YOU TO EVEN FIGURE OUT WHAT THE
+     * HELL IS GOING ON.
+     * We have already determined that the size of the board is 10x10,
+     * because those are the values set in the Element constructor, so I'm
+     * hard-coding it in as dirty as that feels. Basically, plus 10 in case
+     * it's gone below 0, and then modulususususus it in case it went above 10.
+     */
 
     void Element::setX(int x)
     {
