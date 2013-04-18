@@ -1,20 +1,20 @@
 #pragma once
 #include "Element.h"
 
-using namespace std;
+    using namespace std;
 
-class Flotsam : public Element
-{
+    class Flotsam : public Element
+    {
 
-    public:
+        public:
 
-        /**
-         * Flotsam Constructor (Declaration)
-         *
-         * @declaration
-         * @access public
-         * @return void
-         */
-        Flotsam(RandomNumber &rnd, Console &console);
+            /**
+             * Flotsam Constructor (Declaration)
+             *
+             * @declaration
+             * @access public
+             * @return void
+             */
+            Flotsam(RandomNumber &rnd, Console &console);
 
-};
+    };

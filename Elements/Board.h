@@ -3,49 +3,49 @@
 #include "Jetsam.h"
 #include <list>
 
-using namespace std;
+    using namespace std;
 
-class Board
-{
+    class Board
+    {
 
-    protected:
+        protected:
 
-        list<Element> container;
-        Console console;
-        int tick;
+            list<Element> container;
+            Console console;
+            int tick;
 
-    public:
+        public:
 
-        /**
-         * Flotsam Constructor (Declaration)
-         *
-         * @access public
-         * @return void
-         */
-        Board(RandomNumber &rnd, Console &console);
+            /**
+             * Flotsam Constructor (Declaration)
+             *
+             * @access public
+             * @return void
+             */
+            Board(RandomNumber &rnd, Console &console);
 
-        /**
-         * Display Objects
-         *
-         * @access public
-         * @return void
-         */
-        void display(void);
+            /**
+             * Display Objects
+             *
+             * @access public
+             * @return void
+             */
+            void display(void);
 
-        /**
-         * Run Board Simulation
-         *
-         * @access public
-         * @return void
-         */
-        void loop(void);
+            /**
+             * Run Board Simulation
+             *
+             * @access public
+             * @return void
+             */
+            void loop(void);
 
-        /**
-         * Move Object Co-ordinates
-         *
-         * @access public
-         * @return void
-         */
-        void moveObjects(void);
+            /**
+             * Move Object Co-ordinates
+             *
+             * @access public
+             * @return void
+             */
+            void moveObjects(void);
 
-};
+    };
