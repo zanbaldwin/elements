@@ -4,7 +4,7 @@
     using namespace std;
 
     /**
-     * Flotsam Constructor
+     * Jetsam Constructor
      *
      * @definition
      * @access public

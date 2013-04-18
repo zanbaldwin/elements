@@ -9,7 +9,7 @@
         public:
 
             /**
-             * Flotsam Constructor (Declaration)
+             * Jetsam Constructor (Declaration)
              *
              * @declaration
              * @access public
